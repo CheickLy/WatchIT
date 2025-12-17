@@ -53,7 +53,7 @@ class RealTimeTrendTracker:
             # Wait up to 15 seconds for the Nike price class to appear
             wait = WebDriverWait(driver, 15)
             
-            # This selector covers the Nike price class you provided
+            #Cover nike selector attribute
             selector = "div[data-test='product-price'], .product-price, .css-tbgmka"
             price_elem = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, selector)))
             
