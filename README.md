@@ -41,8 +41,31 @@ URL = "htts://www.nike.com/t/boston-celtics-city-edition-mens-nba-premium-jacket
    cd Trend-Scraper
    ```
 
-2.**Download required assets**
-```bash
+2. **Download required assets**
+  ```bash
    pip install -r requirements.txt
-```
-3. 
+  ```
+3. **Run Code**
+   ```bash
+   python scraper.py
+  
+## Clarification
+<img width="931" height="136" alt="image" src="https://github.com/user-attachments/assets/3cee4233-25d7-4d1c-89e9-97e21740b2f8" />
+
+##🚨MAKE SURE TO COMMENT INDIVIDUAL TEST WHEN SCRAPING TO AVOID ERROR🚨
+
+***Static website*** TEST 1 (un-comment)
+
+***Dynamic website*** TEST 2 (un-comment)
+
+##Running....
+
+
+<img width="524" height="85" alt="Screenshot 2025-12-17 005144" src="https://github.com/user-attachments/assets/948d1ea8-bf2f-4e8d-8457-2e1090ca22b4" />
+
+
+## Example of Graph
+
+<img width="987" height="562" alt="Screenshot 2025-12-17 002701" src="https://github.com/user-attachments/assets/6271a530-7d2c-4ea0-a0a6-23eba5590613" />
+
+
