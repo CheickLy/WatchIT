@@ -1,0 +1,15 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (Keep your logs private/local)
+tracker_data.csv
+
+# Virtual environments
+venv/
+env/
+
+# IDE settings
+.vscode/
+.idea/
