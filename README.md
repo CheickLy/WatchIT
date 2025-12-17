@@ -1,5 +1,5 @@
 
-# Real-Time Trend Tracker (Hybrid Web Scraper)
+# WatchIT (Hybrid Web Scraper)
 
 A sophisticated Python-based data extraction tool designed to track price trends across different web architectures. This project demonstrates the ability to handle both static HTML and dynamic, JavaScript-heavy websites using a hybrid scraping approach.
 
@@ -37,6 +37,12 @@ URL = "htts://www.nike.com/t/boston-celtics-city-edition-mens-nba-premium-jacket
 
 1. **Clone the project:**
    ```bash
-   git clone [https://github.com/yourusername/Real-Time-Trend-Tracker.git](https://github.com/yourusername/Real-Time-Trend-Tracker.git)
-   cd Real-Time-Trend-Tracker
+   git clone https://github.com/CheickLy/WatchIT.git
+   cd Trend-Scraper
+   ```
 
+2.**Download required assets**
+```bash
+   pip install -r requirements.txt
+```
+3. 
