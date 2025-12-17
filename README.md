@@ -10,6 +10,8 @@ A sophisticated Python-based data extraction tool designed to track price trends
 - **Trend Visualization**: Generates real-time time-series plots using `Matplotlib` to visualize price fluctuations.
 - **Alert System**: Detects and logs price changes (drops or increases) between consecutive scrapes.
 
+  
+
 
 🔍 Scraping Strategy & Design Decisions
 ## The "Empty soup Problem"
@@ -37,3 +39,4 @@ URL = "htts://www.nike.com/t/boston-celtics-city-edition-mens-nba-premium-jacket
    ```bash
    git clone [https://github.com/yourusername/Real-Time-Trend-Tracker.git](https://github.com/yourusername/Real-Time-Trend-Tracker.git)
    cd Real-Time-Trend-Tracker
+
