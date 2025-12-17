@@ -7,3 +7,10 @@ For these sites, traditional tools like requests and BeautifulSoup may not relia
 Additionally, large companies often use bot-detection services (e.g., Cloudflare) and frequently changing CSS class names. To improve scraping stability, this project prioritizes HTML data attributes and other consistent selectors when available, rather than relying on brittle CSS class names.
 
 This approach improves maintainability and reduces breakage when site layouts change.
+
+EXAMPLE of BeautifulSoup use website
+URL = "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html" 
+    tracker = TrendTracker(URL, "A Light in the Attic")
+EXAMPLE of Selenium use website
+URL = "htts://www.nike.com/t/boston-celtics-city-edition-mens-nba-premium-jacket-3G9NyukK/HQ5759-010
+    tracker = [....]
