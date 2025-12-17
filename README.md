@@ -8,9 +8,12 @@ Additionally, large companies often use bot-detection services (e.g., Cloudflare
 
 This approach improves maintainability and reduces breakage when site layouts change.
 
-EXAMPLE of BeautifulSoup use website
+EXAMPLE of BeautifulSoup use website (STATIC)
 URL = "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html" 
     tracker = TrendTracker(URL, "A Light in the Attic")
-EXAMPLE of Selenium use website
+
+    
+EXAMPLE of Selenium use website (DYNAMIC)
 URL = "htts://www.nike.com/t/boston-celtics-city-edition-mens-nba-premium-jacket-3G9NyukK/HQ5759-010
     tracker = [....]
+
