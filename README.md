@@ -10,8 +10,12 @@ A sophisticated Python-based data extraction tool designed to track price trends
 - **Trend Visualization**: Generates real-time time-series plots using `Matplotlib` to visualize price fluctuations.
 - **Alert System**: Detects and logs price changes (drops or increases) between consecutive scrapes.
 
-  
 
+│
+├── scraper.py         # Main logic (Scraping, Storage, Alerts)
+├── tracker_data.csv   # Data storage (auto-generated)
+├── requirements.txt   # Dependencies
+└── README.md          # Setup instructions
 
 🔍 Scraping Strategy & Design Decisions
 ## The "Empty soup Problem"
@@ -67,5 +71,6 @@ URL = "htts://www.nike.com/t/boston-celtics-city-edition-mens-nba-premium-jacket
 ## Example of Graph
 
 <img width="987" height="562" alt="Screenshot 2025-12-17 002701" src="https://github.com/user-attachments/assets/6271a530-7d2c-4ea0-a0a6-23eba5590613" />
+
 
 
